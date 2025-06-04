@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* Add any additional styling here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(135deg, #1a73e8, #34a853);
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fbbc05; /* Accent color for headings */
+}
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adding a shadow for better appearance */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff; /* White color for labels */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between; /* Arrange buttons vertically */
+    margin-top: 15px;
+}
+
+.submit-btn, .create-account-btn {
+    width: 100%; /* Full width for buttons */
+    padding: 8px; /* Reduced padding */
+    font-size: 14px; /* Reduced font size */
+    background-color: #fbbc05; /* Accent color for buttons */
+    color: #1a73e8; /* Primary color for button text */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Adding transition for smooth hover effect */
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center text */
+}
+
+.create-account-btn {
+    margin-left: 10px; /* Add margin between buttons */
+}
+
+.submit-btn:hover, .create-account-btn:hover {
+    background-color: #34a853; /* Secondary color on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+p {
+    margin-top: 15px;
+    text-align: center; /* Center the text */
+    color: #ffffff; /* White color for paragraph text */
+}
+
+p a {
+    color: #fbbc05; /* Accent color for links */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
